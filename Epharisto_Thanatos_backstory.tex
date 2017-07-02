@@ -10,6 +10,48 @@
 % Your content goes here
 
 \chapter{Epharisto Thanatos}
+\begin{figure}
+  \includegraphics[width = 0.4\textwidth]{ET.png}
+\end{figure}
+
+\begin{monsterbox}{Epharisto Thanatos}
+	\textit{Human, Lvl. 5 Cleric of Nerull (Grave Domain), true neutral}\\
+	\hline
+	\basics[%
+	armorclass = 18,
+	hitpoints  = 38 (5d8 + 10),
+	speed      = 30 ft
+	]
+	\hline
+	\stats[
+    STR = \stat{9}, % This stat command will autocomplete the modifier for you
+    DEX = \stat{14},
+    CON = \stat{14},
+    INT = \stat{12},
+    WIS = \stat{18},
+    CHA = \stat{12}
+  ]
+	\hline
+	\details[%
+	% If you want to use commas in these sections, enclose the
+	% description in braces.
+	% I'm so sorry.
+  savingthrows = {WIS $+7$, CHA $+4$},
+  skills = {Passive Perception $17$, Passive Investigation $11$},
+	languages = {Common, 3 others},
+	]
+	\hline \\[1mm]
+	\begin{monsteraction}[Shelter the Faithful]
+		Epharisto and his party can receive free healing at temples and shrines that recognize him as a cleric of Nerull. In addition, Epharisto commands respect from worshippers of Nerull and he is able to perform the rituals and rites associated with the Church of Nerull.
+	\end{monsteraction}\\
+  \begin{monsteraction}[Lucky]
+    3/day, Epharisto feels the universe turning in his favor.
+    Any attack, saving throw, or skill check that he makes can be rerolled after the die is rolled but before the result is determined.
+    Epharisto can choose which roll to use.
+    This also applies to attack rolls to hit Epharisto.
+  \end{monsteraction}
+
+\end{monsterbox}
 
 \section{Early life}
 \begin{itemize}
@@ -94,47 +136,10 @@ Sometimes he can even hear the bell ringing moments before he gets the feeling t
 Since the exile 2 years prior, Epharisto has traveled and become somewhat of an adventurer.
 This is purely accidental --- his goal is to investigate death, and death is a common companion of many adventurers.
 He has taken quite a liking to healing the injured, but only from the point of near death.
-Afterwords, as ``payment'' for the healing, he likes to quiz his subject about their near-death experience.
-Once or twice, his patients words have even been punctuated with the ringing of his bell.
+As ``payment'' for the healing, he likes to quiz his subject about their near-death experience.
+Sometimes, his patients words are punctuated with the ringing of his bell.
 His most recent companion is a investigator extrodinaire by the name of Hercule Gently.
 The investigator has quite the reputation for being able to solve any mystery; however, while he may be able to say \emph{whodunit}, he has yet to provide a satisfying answer to any of Epharisto's questions.\\
 
-\begin{monsterbox}{Epharisto Thanatos}
-	\textit{Human, Lvl. 4 Cleric of Nerull (Grave Domain), true neutral}\\
-	\hline
-	\basics[%
-	armorclass = 18,
-	hitpoints  = 31 (4d8 + 12),
-	speed      = 30 ft
-	]
-	\hline
-	\stats[
-    STR = \stat{9}, % This stat command will autocomplete the modifier for you
-    DEX = \stat{14},
-    CON = \stat{14},
-    INT = \stat{12},
-    WIS = \stat{18},
-    CHA = \stat{12}
-  ]
-	\hline
-	\details[%
-	% If you want to use commas in these sections, enclose the
-	% description in braces.
-	% I'm so sorry.
-  savingthrows = {WIS $+6$, CHA $+3$},
-  skills = {Passive Perception $16$, Passive Investigation $11$},
-	languages = {Common, 3 others},
-	]
-	\hline \\[1mm]
-	\begin{monsteraction}[Shelter the Faithful]
-		Epharisto and his party can receive free healing at temples and shrines that recognize him as a cleric of Nerull. In addition, Epharisto commands respect from worshippers of Nerull and he is able to perform the rituals and rites associated with the Church of Nerull.
-	\end{monsteraction}\\
-  \begin{monsteraction}[Lucky]
-    3/day, Epharisto feels the universe turning in his favor.
-    Any attack, saving throw, or skill check that he makes can be rerolled after the die is rolled but before the result is determined.
-    Epharisto can choose which roll to use.
-    This also applies to attack rolls to hit Epharisto.
-  \end{monsteraction}
 
-\end{monsterbox}
 \end{document}
